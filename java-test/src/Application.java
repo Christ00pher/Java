@@ -6,9 +6,20 @@ public class Application {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter a command: ");
+        String com = input.nextLine();
 
-        System.out.println("Enter a line of text: ");
-        String line = input.nextLine();
-        System.out.println("Entered text is: " + line);
+        switch (com)
+        {
+            case "start":
+                System.out.println("Machine started");
+                break;
+            case "stop":
+                System.out.println("Machine stopped");
+                break;
+            default:
+                System.out.println("Command was not recognized");
+                break;
+        }
     }
 }
