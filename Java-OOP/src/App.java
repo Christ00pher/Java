@@ -23,5 +23,8 @@ public class App {
                 .append("I'm a musician xd.");
 
         System.out.println(s);
+
+        System.out.print("Some text here. This is tab\t This is new line\n More text.");
+        System.out.println("Text text text...");
     }
 }
