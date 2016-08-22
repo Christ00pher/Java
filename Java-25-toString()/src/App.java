@@ -1,5 +1,7 @@
 class Frog {
-
+    public String toString() {
+        return "Hello!";
+    }
 }
 
 public class App {
