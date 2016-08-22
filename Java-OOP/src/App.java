@@ -16,5 +16,12 @@ public class App {
         sb.append("Hello everybody!");
 
         System.out.println(sb);
+
+        StringBuilder s = new StringBuilder();
+        s.append("My name is Skrollex.")
+                .append(" ")
+                .append("I'm a musician xd.");
+
+        System.out.println(s);
     }
 }
