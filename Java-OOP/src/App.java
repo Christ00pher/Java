@@ -26,5 +26,18 @@ public class App {
 
         System.out.print("Some text here. This is tab\t This is new line\n More text.");
         System.out.println("Text text text...");
+
+        System.out.printf("Cost is: %-10d; quantity is: %d\n", 5,10);
+
+        //without formatting
+        for (int i = 0; i <= 20; i++) {
+            System.out.printf("%d: %s\n",i, "text text text");
+        }
+        System.out.println("\n\n");
+
+        //with formatting
+        for (int i = 0; i <= 20; i++) {
+            System.out.printf("%2d: %s\n",i, "text text text");
+        }
     }
 }
