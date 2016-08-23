@@ -10,4 +10,8 @@ public class Car extends Machine {
         System.out.println(this);
         System.out.println("Car started");
     }
+
+    public void showInfo() {
+        System.out.println(s);
+    }
 }

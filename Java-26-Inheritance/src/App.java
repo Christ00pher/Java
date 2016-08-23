@@ -11,5 +11,6 @@ public class App {
         car1.start();
         car1.stop();
         car1.wipeWindShields();
+        car1.showInfo();
     }
 }
