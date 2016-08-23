@@ -10,5 +10,6 @@ public class App {
         Car car1 = new Car();
         car1.start();
         car1.stop();
+        car1.wipeWindShields();
     }
 }
