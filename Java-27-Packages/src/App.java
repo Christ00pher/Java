@@ -1,8 +1,9 @@
 import ocean.*;
+import ocean.plants.Seaweed;
 
 //or
 //import ocean.Fish;
-//import ocean.Seaweed;
+//import ocean.plants.Seaweed;
 
 
 public class App {
