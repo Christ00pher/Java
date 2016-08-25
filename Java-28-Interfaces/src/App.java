@@ -12,5 +12,12 @@ public class App {
 
         Info info2 = person1;
         info2.showInfo();
+
+        outputInfo(mach1);
+        outputInfo(person1);
+    }
+
+    private static void outputInfo(Info info) {
+        info.showInfo();
     }
 }
