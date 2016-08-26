@@ -11,9 +11,12 @@ public class Plant {
 
     protected String size;
 
+    int height;
+
     public Plant() {
         this.name = "Freddy";
         this.type = "world.Plant";
         this.size = "Medium";
+        this.height = 5;
     }
 }

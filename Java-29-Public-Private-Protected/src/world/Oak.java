@@ -7,5 +7,6 @@ public class Oak extends Plant {
         // Type = "tree";
 
         this.size = "Large";
+        this.height = 8;
     }
 }
