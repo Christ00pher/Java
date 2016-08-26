@@ -1,3 +1,5 @@
+package world;
+
 public class Plant {
     //Bad practice
     public String name;
@@ -11,7 +13,7 @@ public class Plant {
 
     public Plant() {
         this.name = "Freddy";
-        this.type = "Plant";
+        this.type = "world.Plant";
         this.size = "Medium";
     }
 }
