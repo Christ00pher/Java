@@ -12,6 +12,6 @@ public class App {
         plant2.grow();
 
         tree.shedLeaves();
-        //plant2.shedLeaves();
+        plant2.shedLeaves();
     }
 }
