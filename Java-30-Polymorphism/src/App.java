@@ -10,5 +10,8 @@ public class App {
 
         plant1.grow();
         plant2.grow();
+
+        tree.shedLeaves();
+        //plant2.shedLeaves();
     }
 }
