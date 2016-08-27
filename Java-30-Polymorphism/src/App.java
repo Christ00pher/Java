@@ -13,5 +13,12 @@ public class App {
 
         tree.shedLeaves();
         plant2.shedLeaves();
+
+        doGrow(tree);
+        doGrow(plant1);
+    }
+
+    public static void doGrow(Plant plant) {
+        plant.grow();
     }
 }
