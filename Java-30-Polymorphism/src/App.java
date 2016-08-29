@@ -3,7 +3,7 @@
  */
 public class App {
     public static void main(String[] args) {
-
+        /*
         Plant plant1 = new Plant();
         Tree tree = new Tree();
         Plant plant2 = tree;
@@ -16,6 +16,16 @@ public class App {
 
         doGrow(tree);
         doGrow(plant1);
+        */
+
+        try {
+            int a = 5;
+            int b = 0;
+            System.out.println(a/b);
+        }
+        catch (ArithmeticException e) {
+            System.out.println("Exception caught: Division by Zero!");
+        }
     }
 
     public static void doGrow(Plant plant) {
