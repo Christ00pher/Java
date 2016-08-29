@@ -2,6 +2,15 @@ class Plant {
     public static final int ID = 7;
     private String name;
 
+    public String getData() {
+        String data = "some stuff" + calculateSmth();
+        return data;
+    }
+
+    private int calculateSmth() {
+        return 9;
+    }
+
     public String getName() {
         return name;
     }
