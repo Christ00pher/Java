@@ -9,7 +9,7 @@ public class App {
         int intValue = 888;
         long longValue = 301232;
 
-        float floatValue = 555.3f;
+        float floatValue = 555.7f;
         double doubleValue = 29.6;
 
 
@@ -23,5 +23,14 @@ public class App {
 
         //intValue = longValue;
         intValue = (int)longValue;
+
+        //manual casting is no needed in case int->double
+        doubleValue = intValue;
+        System.out.println(doubleValue);
+
+
+        //intValue = floatValue;
+        intValue = (int)floatValue;
+        System.out.println(intValue);
     }
 }
