@@ -19,5 +19,9 @@ public class App {
         System.out.println(Long.MAX_VALUE);
         System.out.println(Float.MAX_VALUE);
         System.out.println(Double.MAX_VALUE);
+
+
+        //intValue = longValue;
+        intValue = (int)longValue;
     }
 }
