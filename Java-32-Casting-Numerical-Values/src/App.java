@@ -32,5 +32,8 @@ public class App {
         //intValue = floatValue;
         intValue = (int)floatValue;
         System.out.println(intValue);
+
+        byteValue = (byte)128;
+        System.out.println(byteValue);
     }
 }
