@@ -30,5 +30,17 @@ public class App {
         //Doesn't work - Machine class doesn't have 'snap()' method
         //machine2.snap();
 
+        //Downcastig
+        Machine machine3 = new Camera();
+        Camera camera2 = (Camera)machine3;
+        camera2.start();
+        camera2.snap();
+
+        //Doesn't work
+        //Machine machine4 = new Machine();
+        //Camera camera3 = (Camera)machine4;
+        //camera3.start();
+        //camera3.snap();
+
     }
 }
