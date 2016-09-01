@@ -23,6 +23,12 @@ public class App {
         camera1.start();
         camera1.snap();
 
-        Machine machine2 = new Camera();
+        //Upcasting
+        Machine machine2 = camera1;
+        machine2.start();
+
+        //Doesn't work - Machine class doesn't have 'snap()' method
+        //machine2.snap();
+
     }
 }
